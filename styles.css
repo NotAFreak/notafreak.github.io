@@ -1,0 +1,15 @@
+body {
+    background-color: #FFFFFF;
+    
+}
+.renders-image-container {
+    border: 2px outset black;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+img {
+    width: 10cm;
+    margin: 5;
+    vertical-align: middle;
+}
