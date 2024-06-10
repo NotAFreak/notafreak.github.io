@@ -22,6 +22,32 @@
     border-radius: 5px;
 }
 
+.gallery-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.gallery-video .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gallery-video .box .dream {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gallery-video .box .dream video {
+    max-width: 100%;
+    max-height: calc(height * 0.9);
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
 /* Media query for mobile devices */
 @media (max-width: 768px) {
     .gallery .box {
