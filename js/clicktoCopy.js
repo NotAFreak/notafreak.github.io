@@ -5,5 +5,5 @@ function copyDiscord() {
 
 function copyEmail() {
     navigator.clipboard.writeText("notafreak@protonmail.com")
-    alert("Copied username to clipboard: " + "notafreak@protonmail.com");
+    alert("Copied email to clipboard: " + "notafreak@protonmail.com");
 }
